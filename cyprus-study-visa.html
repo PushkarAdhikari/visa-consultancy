@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyprus Study Visa - Sombir's Visa Consultancy | Best Study Abroad Consultancy in Karnal</title>
+  <meta name="description" content="Cyprus Study Visa guidance by Sombir's Visa Consultancy. Expert counselling for Cypriot universities, affordable European education, easy admission. 15+ years experience.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .study-page { padding: 80px 0; }
+    .study-page .container { max-width: 900px; }
+    .study-page p {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.9;
+      margin-bottom: 20px;
+    }
+    .study-page h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--text-color);
+      margin: 48px 0 16px;
+    }
+    .study-page h3 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-color);
+      margin: 32px 0 12px;
+    }
+    .study-page .highlight-box {
+      background: var(--bg-alt);
+      border-left: 4px solid var(--accent);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 24px 28px;
+      margin: 28px 0;
+    }
+    .study-page .highlight-box p { margin-bottom: 0; }
+
+    .reasons-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 24px 0;
+    }
+    .reason-card {
+      background: var(--bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      transition: all 0.3s;
+    }
+    .reason-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+    }
+    .reason-card .icon {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      background: rgba(245,176,65,0.12);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: var(--accent-dark);
+    }
+    .reason-card p {
+      font-size: 13px;
+      margin-bottom: 0;
+    }
+
+    .doc-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .doc-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--text-color);
+      padding: 10px 14px;
+      background: var(--bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+    }
+    .doc-list li i { color: var(--accent); font-size: 14px; }
+
+    .info-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .info-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--text-color);
+      padding: 10px 14px;
+      background: var(--bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+    }
+    .info-list li i { color: var(--accent); font-size: 14px; }
+
+    @media (max-width: 768px) {
+      .reasons-grid { grid-template-columns: 1fr; }
+      .doc-list { grid-template-columns: 1fr; }
+      .info-list { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <span><i class="fas fa-map-marker-alt"></i> #1, Near Govt Boys School, Behind Old Bus Stand, Karnal</span>
+      <span style="display: flex; align-items: center; gap: 16px;">
+        <a href="tel:8810110144"><i class="fas fa-phone-alt"></i> Call Now! 88101-10144</a>
+        <button class="theme-toggle top-bar-theme" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+      </span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Sombir's Visa Consultancy" style="height: 42px; width: auto;">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="index.html#classes" class="dropdown-toggle">Classes <i class="fas fa-chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="ielts.html">IELTS</a></li>
+            <li><a href="pte.html">PTE</a></li>
+            <li><a href="spoken-english.html">Spoken English</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="index.html#study-abroad" class="dropdown-toggle">Study Abroad <i class="fas fa-chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="canada-study-visa.html">Canada</a></li>
+            <li><a href="uk-study-visa.html">UK</a></li>
+            <li><a href="australia-study-visa.html">Australia</a></li>
+            <li><a href="usa-study-visa.html">USA</a></li>
+            <li><a href="singapore-study-visa.html">Singapore</a></li>
+            <li><a href="malta-study-visa.html">Malta</a></li>
+            <li><a href="cyprus-study-visa.html">Cyprus</a></li>
+            <li><a href="new-zealand-study-visa.html">New Zealand</a></li>
+          </ul>
+        </li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="contact-us.html" class="cta-btn"><i class="fas fa-phone-alt"></i> Book a Call</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero" style="background: linear-gradient(135deg, #0a1a2e 0%, #1a237e 40%, #d4af37 100%);">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / <a href="index.html#study-abroad">Study Abroad</a> / Cyprus</p>
+      <h1><span class="fi fi-cy" style="margin-right: 12px; vertical-align: middle;"></span> Cyprus Study Visa</h1>
+      <p>Affordable European education with a mild Mediterranean climate and over 300 days of sunshine.</p>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <section class="study-page">
+    <div class="container">
+
+      <!-- Overview -->
+      <div class="reveal">
+        <p>Cyprus is a diverse country that offers a number of opportunities for good living standards, career goals and some other personal benefits. It is one of the best countries in Europe where people can live happily due to friendly culture along with easy migration.</p>
+
+        <p>Being the leading edge in technology, the country's different economic sectors like banking, telecommunication, tourism, etc. enjoy a high living standard. The country is full of natural beauty and has one of the healthiest and favorable environments in the whole world — free from many kinds of pollution.</p>
+
+        <p>Cyprus is one of the best destinations for students who want to study abroad and many international students come from across the world. Cyprus provides the best quality of education along with affordable tuition fees and excellent facilities. Even though Cyprus is associated with the Bologna system, the majority of colleges implement the American system of education.</p>
+      </div>
+
+      <!-- Why Study in Cyprus -->
+      <div class="reveal">
+        <h2>Why Study in Cyprus?</h2>
+        <p>There are numerous reasons why students should pick Cyprus for their further education abroad. Currently, there are over more than 40,000 international students studying in the universities and institutes of Cyprus.</p>
+
+        <div class="reasons-grid">
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-globe"></i></div>
+            <p>Cyprus colleges have foreign students from over 25 countries including India, Pakistan, Russia, China, UAE, and more.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-concierge-bell"></i></div>
+            <p>Colleges provide airport-pickup, housing assistance, city tours, orientation, and much more for international students.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-book"></i></div>
+            <p>High-quality education with a flexible curriculum for students.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-file-alt"></i></div>
+            <p>Sponsorship is not required. Simple and easy admission procedures.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-tag"></i></div>
+            <p>Very low fee structure. Degrees from Cyprus colleges are accepted worldwide.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-check-circle"></i></div>
+            <p>Many colleges don't require passing any English Proficiency test.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Required Documents -->
+      <div class="reveal">
+        <h2>Required Documents for Cyprus Study Visa</h2>
+        <ul class="doc-list">
+          <li><i class="fas fa-camera"></i> Passport size photographs</li>
+          <li><i class="fas fa-file"></i> Application form</li>
+          <li><i class="fas fa-wallet"></i> Proof of Funds</li>
+          <li><i class="fas fa-heartbeat"></i> Medical clearance</li>
+          <li><i class="fas fa-passport"></i> Original valid passport</li>
+          <li><i class="fas fa-graduation-cap"></i> Academic certificates</li>
+          <li><i class="fas fa-shield-alt"></i> Police verification</li>
+          <li><i class="fas fa-pen"></i> Statement of Purpose (SOP)</li>
+        </ul>
+      </div>
+
+      <!-- Quick Facts -->
+      <div class="reveal">
+        <h2>Cyprus at a Glance</h2>
+        <ul class="info-list">
+          <li><i class="fas fa-map-pin"></i> Capital: Nicosia</li>
+          <li><i class="fas fa-money-bill-wave"></i> Currency: Euro (&euro;)</li>
+          <li><i class="fas fa-language"></i> Languages: Greek, Turkish, English</li>
+          <li><i class="fas fa-users"></i> Population: ~1.2 Million</li>
+          <li><i class="fas fa-sun"></i> Climate: Mediterranean (300+ sunny days/year)</li>
+          <li><i class="fas fa-university"></i> Education System: American / Bologna</li>
+          <li><i class="fas fa-id-card"></i> Visa: Simple application process</li>
+          <li><i class="fas fa-users"></i> Intl. Students: 40,000+</li>
+        </ul>
+      </div>
+
+      <!-- About Cyprus -->
+      <div class="reveal">
+        <h2>About Cyprus</h2>
+        <p>From a Mediterranean island to the mythical birthplace of Aphrodite, Cyprus combines natural beauty and a friendly population with rich culture and archaeological heritage. Greeks, Egyptians, Arabs, Venetians, British, and many others have left their legacy in the country today.</p>
+
+        <p>Cyprus is a stable and economically advanced region of the European Union and provides a stunning view of Western cities along with modern beach resorts built alongside traditional villages and monasteries on the mountains. The country is becoming an education and research center with constant investment from international bodies.</p>
+
+        <p>The climate is mild with over 300 days of sunlight every year, making it an ideal tourist destination all year round. More than 2.5 million tourists pick Cyprus as their holiday destination.</p>
+      </div>
+
+      <!-- CTA -->
+      <div class="highlight-box reveal" style="border-left-color: #d4af37; margin-top: 48px;">
+        <p><strong>Ready to study in Cyprus?</strong> Contact Sombir's Visa Consultancy today for expert guidance on university selection, application process, visa documentation, and interview preparation. <a href="contact-us.html" style="color: var(--accent); font-weight: 700;">Get started now →</a></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div>
+        <div class="footer-logo"><img src="images/logo.png" alt="Sombir's Visa Consultancy" style="height: 36px; width: auto;"></div>
+        <p style="max-width: 320px;">15+ years of excellence in IELTS, PTE, Spoken English coaching and study abroad visa consultancy in Karnal. We help students achieve their global dreams.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="ielts.html">IELTS</a></li>
+          <li><a href="canada-study-visa.html">Study Abroad</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Important Links</h4>
+        <ul>
+          <li><a href="https://portal2.passportindia.gov.in/" target="_blank">Passport Appointment</a></li>
+          <li><a href="https://ieltsidpindia.com/" target="_blank">IELTS Exam Booking</a></li>
+          <li><a href="https://pearsonpte.com/" target="_blank">PTE Exam Booking</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="ielts.html">IELTS Coaching</a></li>
+          <li><a href="pte.html">PTE Coaching</a></li>
+          <li><a href="spoken-english.html">Spoken English</a></li>
+          <li><a href="canada-study-visa.html">Study Abroad</a></li>
+          <li><a href="canada-study-visa.html">Visa Consultancy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Copyright &copy; 2026 <a href="index.html">Sombir's</a> | Designed with <i class="fas fa-heart" style="color: var(--accent);"></i> by Sombir's Visa Consultancy
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="theme.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      if (link.getAttribute('href') === 'cyprus-study-visa.html') link.classList.add('active');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Singapore Study Visa - Sombir's Visa Consultancy | Best Study Abroad Consultancy in Karnal</title>
+  <meta name="description" content="Singapore Study Visa guidance by Sombir's Visa Consultancy. Expert counselling for Singapore universities, visa application, affordable education. 15+ years experience.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .study-page { padding: 80px 0; }
+    .study-page .container { max-width: 900px; }
+    .study-page p {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.9;
+      margin-bottom: 20px;
+    }
+    .study-page h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--text-color);
+      margin: 48px 0 16px;
+    }
+    .study-page h3 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-color);
+      margin: 32px 0 12px;
+    }
+    .study-page .highlight-box {
+      background: var(--bg-alt);
+      border-left: 4px solid var(--accent);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 24px 28px;
+      margin: 28px 0;
+    }
+    .study-page .highlight-box p { margin-bottom: 0; }
+
+    .reasons-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 24px 0;
+    }
+    .reason-card {
+      background: var(--bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      transition: all 0.3s;
+    }
+    .reason-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+    }
+    .reason-card .icon {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      background: rgba(245,176,65,0.12);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: var(--accent-dark);
+    }
+    .reason-card p {
+      font-size: 13px;
+      margin-bottom: 0;
+    }
+
+    .living-section {
+      background: var(--bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 32px;
+      margin: 28px 0;
+    }
+    .living-section p:last-child { margin-bottom: 0; }
+
+    .info-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .info-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--text-color);
+      padding: 10px 14px;
+      background: var(--bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+    }
+    .info-list li i { color: var(--accent); font-size: 14px; }
+
+    @media (max-width: 768px) {
+      .reasons-grid { grid-template-columns: 1fr; }
+      .info-list { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <span><i class="fas fa-map-marker-alt"></i> #1, Near Govt Boys School, Behind Old Bus Stand, Karnal</span>
+      <span style="display: flex; align-items: center; gap: 16px;">
+        <a href="tel:8810110144"><i class="fas fa-phone-alt"></i> Call Now! 88101-10144</a>
+        <button class="theme-toggle top-bar-theme" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+      </span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Sombir's Visa Consultancy" style="height: 42px; width: auto;">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="index.html#classes" class="dropdown-toggle">Classes <i class="fas fa-chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="ielts.html">IELTS</a></li>
+            <li><a href="pte.html">PTE</a></li>
+            <li><a href="spoken-english.html">Spoken English</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="index.html#study-abroad" class="dropdown-toggle">Study Abroad <i class="fas fa-chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="canada-study-visa.html">Canada</a></li>
+            <li><a href="uk-study-visa.html">UK</a></li>
+            <li><a href="australia-study-visa.html">Australia</a></li>
+            <li><a href="usa-study-visa.html">USA</a></li>
+            <li><a href="singapore-study-visa.html">Singapore</a></li>
+            <li><a href="malta-study-visa.html">Malta</a></li>
+            <li><a href="cyprus-study-visa.html">Cyprus</a></li>
+            <li><a href="new-zealand-study-visa.html">New Zealand</a></li>
+          </ul>
+        </li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="contact-us.html" class="cta-btn"><i class="fas fa-phone-alt"></i> Book a Call</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero" style="background: linear-gradient(135deg, #0a1a2e 0%, #7b1fa2 40%, #e53935 100%);">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / <a href="index.html#study-abroad">Study Abroad</a> / Singapore</p>
+      <h1><span class="fi fi-sg" style="margin-right: 12px; vertical-align: middle;"></span> Singapore Study Visa</h1>
+      <p>A perfect blend of Eastern culture and Western business. World-class education in Asia's leading financial hub.</p>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <section class="study-page">
+    <div class="container">
+
+      <!-- Overview -->
+      <div class="reveal">
+        <p>Singapore is one of the dynamic cities which are rich in color and contrast. It's a country where you will find a perfect combination of food, culture, arts and infrastructure. This City State has been successfully able to mix Eastern culture and Western business.</p>
+
+        <p>There is the world's largest oil refining center located in Singapore and the country is at 4th position as a leading financial center. Even the World Bank has noted that Singapore is the easiest place in the world to do business. The world's best institutions are attracted to Singapore to set up their international campuses due to the country's strong reputation for high-quality education.</p>
+      </div>
+
+      <!-- Why Study in Singapore -->
+      <div class="reveal">
+        <h2>Why Study in Singapore?</h2>
+        <p>Singapore is considered an excellent education hub with its best-in-class universities and institutes providing quality education at an affordable price. In 2013 QS Best Student Cities, Singapore won 3rd place — representing the combination of diverse student communities with highly ranked institutions and living standards.</p>
+
+        <div class="reasons-grid">
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-graduation-cap"></i></div>
+            <p>Singapore has many private and public institutions that meet international education standards for students from all over the world.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-trophy"></i></div>
+            <p>Universities rank among the top 100 in the whole world. Excellent academic reputation globally.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-lightbulb"></i></div>
+            <p>Students are provided unique learning methods along with sophisticated modern living that is vibrant and cosmopolitan.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-wallet"></i></div>
+            <p>Quality education at an affordable price compared to Western countries. Great value for international students.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Facts -->
+      <div class="reveal">
+        <h2>Singapore at a Glance</h2>
+        <ul class="info-list">
+          <li><i class="fas fa-map-pin"></i> Capital: Singapore (City State)</li>
+          <li><i class="fas fa-money-bill-wave"></i> Currency: Singapore Dollar (SGD)</li>
+          <li><i class="fas fa-language"></i> Languages: English, Mandarin, Malay, Tamil</li>
+          <li><i class="fas fa-users"></i> Population: ~5.7 Million</li>
+          <li><i class="fas fa-university"></i> Top Universities: NUS, NTU, SMU</li>
+          <li><i class="fas fa-globe"></i> Business: World's easiest place to do business (World Bank)</li>
+          <li><i class="fas fa-sun"></i> Climate: Tropical (22-34&deg;C year-round)</li>
+          <li><i class="fas fa-id-card"></i> Visa Type: Student Pass</li>
+        </ul>
+      </div>
+
+      <!-- Living -->
+      <div class="reveal">
+        <h2>Living in Singapore</h2>
+        <div class="living-section">
+          <p>Singapore offers one of the best standards of living. According to the Mercer cost of living survey, Singapore is among the top 10 expensive cities of the world. However, with proper planning, you can manage your budget effectively:</p>
+
+          <p><strong>Accommodation:</strong> Property costs can be high whether renting or buying. Planning ahead is essential.</p>
+
+          <p><strong>Food & Groceries:</strong> Quite affordable compared to other expenses. Dining in shopping mall food courts and local stalls is very cheap while helping you socialize with diverse people.</p>
+
+          <p><strong>Language:</strong> English is the most common language used for trade, business and education. Most institutes conduct classes in English. Mandarin, Malay and Tamil are also commonly spoken.</p>
+        </div>
+
+        <h3>Climate</h3>
+        <p>Singapore enjoys a tropical climate without any sharply divided seasons as the country lies almost on the equator. Temperature generally ranges from 22 to 34 degrees Celsius. Humidity increases with rainfall which can reach 100%. The hottest months are June and July, while monsoon season is from November to December.</p>
+      </div>
+
+      <!-- CTA -->
+      <div class="highlight-box reveal" style="border-left-color: #7b1fa2; margin-top: 48px;">
+        <p><strong>Ready to study in Singapore?</strong> Contact Sombir's Visa Consultancy today for expert guidance on university selection, application process, visa documentation, and interview preparation. <a href="contact-us.html" style="color: var(--accent); font-weight: 700;">Get started now →</a></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div>
+        <div class="footer-logo"><img src="images/logo.png" alt="Sombir's Visa Consultancy" style="height: 36px; width: auto;"></div>
+        <p style="max-width: 320px;">15+ years of excellence in IELTS, PTE, Spoken English coaching and study abroad visa consultancy in Karnal. We help students achieve their global dreams.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="ielts.html">IELTS</a></li>
+          <li><a href="canada-study-visa.html">Study Abroad</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Important Links</h4>
+        <ul>
+          <li><a href="https://portal2.passportindia.gov.in/" target="_blank">Passport Appointment</a></li>
+          <li><a href="https://ieltsidpindia.com/" target="_blank">IELTS Exam Booking</a></li>
+          <li><a href="https://pearsonpte.com/" target="_blank">PTE Exam Booking</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="ielts.html">IELTS Coaching</a></li>
+          <li><a href="pte.html">PTE Coaching</a></li>
+          <li><a href="spoken-english.html">Spoken English</a></li>
+          <li><a href="canada-study-visa.html">Study Abroad</a></li>
+          <li><a href="canada-study-visa.html">Visa Consultancy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Copyright &copy; 2026 <a href="index.html">Sombir's</a> | Designed with <i class="fas fa-heart" style="color: var(--accent);"></i> by Sombir's Visa Consultancy
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="theme.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      if (link.getAttribute('href') === 'singapore-study-visa.html') link.classList.add('active');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New Zealand Study Visa - Sombir's Visa Consultancy | Best Study Abroad Consultancy in Karnal</title>
+  <meta name="description" content="New Zealand Study Visa guidance by Sombir's Visa Consultancy. Expert counselling for NZ universities, part-time work, post-study work visa. 15+ years experience.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .study-page { padding: 80px 0; }
+    .study-page .container { max-width: 900px; }
+    .study-page p {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.9;
+      margin-bottom: 20px;
+    }
+    .study-page h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--text-color);
+      margin: 48px 0 16px;
+    }
+    .study-page h3 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-color);
+      margin: 32px 0 12px;
+    }
+    .study-page .highlight-box {
+      background: var(--bg-alt);
+      border-left: 4px solid var(--accent);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 24px 28px;
+      margin: 28px 0;
+    }
+    .study-page .highlight-box p { margin-bottom: 0; }
+
+    .reasons-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 24px 0;
+    }
+    .reason-card {
+      background: var(--bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      transition: all 0.3s;
+    }
+    .reason-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+    }
+    .reason-card .icon {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      background: rgba(245,176,65,0.12);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: var(--accent-dark);
+    }
+    .reason-card p {
+      font-size: 13px;
+      margin-bottom: 0;
+    }
+
+    .info-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .info-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--text-color);
+      padding: 10px 14px;
+      background: var(--bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+    }
+    .info-list li i { color: var(--accent); font-size: 14px; }
+
+    .employment-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 12px;
+    }
+    .employment-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--text-color);
+      padding: 12px 16px;
+      background: var(--bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+    }
+    .employment-list li i { color: var(--accent); font-size: 16px; }
+
+    @media (max-width: 768px) {
+      .reasons-grid { grid-template-columns: 1fr; }
+      .info-list { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <span><i class="fas fa-map-marker-alt"></i> #1, Near Govt Boys School, Behind Old Bus Stand, Karnal</span>
+      <span style="display: flex; align-items: center; gap: 16px;">
+        <a href="tel:8810110144"><i class="fas fa-phone-alt"></i> Call Now! 88101-10144</a>
+        <button class="theme-toggle top-bar-theme" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+      </span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Sombir's Visa Consultancy" style="height: 42px; width: auto;">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="index.html#classes" class="dropdown-toggle">Classes <i class="fas fa-chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="ielts.html">IELTS</a></li>
+            <li><a href="pte.html">PTE</a></li>
+            <li><a href="spoken-english.html">Spoken English</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="index.html#study-abroad" class="dropdown-toggle">Study Abroad <i class="fas fa-chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="canada-study-visa.html">Canada</a></li>
+            <li><a href="uk-study-visa.html">UK</a></li>
+            <li><a href="australia-study-visa.html">Australia</a></li>
+            <li><a href="usa-study-visa.html">USA</a></li>
+            <li><a href="singapore-study-visa.html">Singapore</a></li>
+            <li><a href="malta-study-visa.html">Malta</a></li>
+            <li><a href="cyprus-study-visa.html">Cyprus</a></li>
+            <li><a href="new-zealand-study-visa.html">New Zealand</a></li>
+          </ul>
+        </li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="contact-us.html" class="cta-btn"><i class="fas fa-phone-alt"></i> Book a Call</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero" style="background: linear-gradient(135deg, #0a1a2e 0%, #002b5c 50%, #003366 100%);">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / <a href="index.html#study-abroad">Study Abroad</a> / New Zealand</p>
+      <h1><span class="fi fi-nz" style="margin-right: 12px; vertical-align: middle;"></span> New Zealand Study Visa</h1>
+      <p>British-based education system, stunning natural beauty, and a safe, welcoming environment for students.</p>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <section class="study-page">
+    <div class="container">
+
+      <!-- Overview -->
+      <div class="reveal">
+        <p>In the department of international education, New Zealand has made a big name for itself. The country is a wonderful place to live as it provides from excellent quality of education to an unmatched standard of living.</p>
+
+        <p>With a strict assurance quality system, the education regime is controlled which offers you the flexibility to choose the institute of your choice along with the town or city based on your interest.</p>
+
+        <p>The country has a wide range of education systems with a total of 8 universities, 16 institutes of Polytechnic and Technology, and plenty of private institutes and colleges, all of which are known for their best-in-class education.</p>
+      </div>
+
+      <!-- Why Study -->
+      <div class="reveal">
+        <h2>Why Study in New Zealand?</h2>
+
+        <div class="reasons-grid">
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-award"></i></div>
+            <p>Education programs and degrees are based on the world's most accredited system — the British system.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-star"></i></div>
+            <p>Gained an international reputation as one of the best education providers.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-microchip"></i></div>
+            <p>Progressive education system with numerous state of the art facilities.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-shield-alt"></i></div>
+            <p>Safe learning environment with excellent opportunities for international students.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-mountain"></i></div>
+            <p>Excellent adventure playground for thrill-seeking sports along with relaxation and serene places.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-tag"></i></div>
+            <p>Tuition fees are cheap compared to USA, UK, Australia, or Canada.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Facts -->
+      <div class="reveal">
+        <h2>New Zealand at a Glance</h2>
+        <ul class="info-list">
+          <li><i class="fas fa-map-pin"></i> Capital: Wellington</li>
+          <li><i class="fas fa-money-bill-wave"></i> Currency: New Zealand Dollar (NZD)</li>
+          <li><i class="fas fa-language"></i> Languages: English, M&amacr;ori</li>
+          <li><i class="fas fa-users"></i> Population: ~5 Million</li>
+          <li><i class="fas fa-university"></i> Universities: 8 + 16 Polytechnics</li>
+          <li><i class="fas fa-id-card"></i> Education System: British-based</li>
+          <li><i class="fas fa-briefcase"></i> Work: 20 hrs/week during study</li>
+          <li><i class="fas fa-clock"></i> Post-study Work: Up to 3 years</li>
+        </ul>
+      </div>
+
+      <!-- Employment -->
+      <div class="reveal">
+        <h2>Employment & Work Rights</h2>
+        <p>New immigration regulations introduced in 2005 allow students to work while studying and post-study work opportunities:</p>
+
+        <ul class="employment-list">
+          <li><i class="fas fa-check-circle"></i> Eligible candidates can work up to 20 hours per week during studies (previously 15 hours)</li>
+          <li><i class="fas fa-check-circle"></i> Students studying a 12-month course or above are eligible for full-time work during summer holidays</li>
+          <li><i class="fas fa-check-circle"></i> Graduates from 2-3 year diploma, degree, or post-graduation are eligible for a 6-month Job Search Permit</li>
+          <li><i class="fas fa-check-circle"></i> After finding a job related to their qualification, the work permit extends to the validity of their job offer</li>
+        </ul>
+      </div>
+
+      <!-- About -->
+      <div class="reveal">
+        <h2>About New Zealand</h2>
+        <p>New Zealand is a stunning country situated in the southern part of the Pacific Ocean. The country is created by two islands and has a surface area roughly the size of Great Britain, California, or Japan. The cities, culture and sceneries are diverse and vibrant.</p>
+
+        <p>New Zealand is home to around 5 million multi-cultural population including people from the Pacific islands and several parts of India, Africa, Asia, Europe, and the Middle East. 14 percent of the total population is Indigenous Maori. The country represents many major religions free from discrimination, ensured by Human Rights Legislation.</p>
+
+        <h3>Climate</h3>
+        <p>Located in the southern hemisphere, January and February are the warmest months. Autumn is March to May, winter is June to August, and spring is September to November. The climate is temperate with mild, warm dry summers and wet winters.</p>
+      </div>
+
+      <!-- CTA -->
+      <div class="highlight-box reveal" style="border-left-color: #003366; margin-top: 48px;">
+        <p><strong>Ready to study in New Zealand?</strong> Contact Sombir's Visa Consultancy today for expert guidance on university selection, application process, visa documentation, and interview preparation. <a href="contact-us.html" style="color: var(--accent); font-weight: 700;">Get started now →</a></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div>
+        <div class="footer-logo"><img src="images/logo.png" alt="Sombir's Visa Consultancy" style="height: 36px; width: auto;"></div>
+        <p style="max-width: 320px;">15+ years of excellence in IELTS, PTE, Spoken English coaching and study abroad visa consultancy in Karnal. We help students achieve their global dreams.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="ielts.html">IELTS</a></li>
+          <li><a href="canada-study-visa.html">Study Abroad</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Important Links</h4>
+        <ul>
+          <li><a href="https://portal2.passportindia.gov.in/" target="_blank">Passport Appointment</a></li>
+          <li><a href="https://ieltsidpindia.com/" target="_blank">IELTS Exam Booking</a></li>
+          <li><a href="https://pearsonpte.com/" target="_blank">PTE Exam Booking</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="ielts.html">IELTS Coaching</a></li>
+          <li><a href="pte.html">PTE Coaching</a></li>
+          <li><a href="spoken-english.html">Spoken English</a></li>
+          <li><a href="canada-study-visa.html">Study Abroad</a></li>
+          <li><a href="canada-study-visa.html">Visa Consultancy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Copyright &copy; 2026 <a href="index.html">Sombir's</a> | Designed with <i class="fas fa-heart" style="color: var(--accent);"></i> by Sombir's Visa Consultancy
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="theme.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      if (link.getAttribute('href') === 'new-zealand-study-visa.html') link.classList.add('active');
+    });
+  </script>
+</body>
+</html>

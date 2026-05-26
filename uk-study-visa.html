@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UK Study Visa - Sombir's Visa Consultancy | Best Study Abroad Consultancy in Karnal</title>
+  <meta name="description" content="UK Study Visa guidance by Sombir's Visa Consultancy. Expert counselling for UK universities, Tier 4 visa, post-study work permits. 15+ years experience.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .study-page { padding: 80px 0; }
+    .study-page .container { max-width: 900px; }
+    .study-page p {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.9;
+      margin-bottom: 20px;
+    }
+    .study-page h2 {
+      font-size: 26px;
+      font-weight: 700;
+      color: var(--text-color);
+      margin: 48px 0 16px;
+    }
+    .study-page h3 {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--text-color);
+      margin: 32px 0 12px;
+    }
+    .study-page .highlight-box {
+      background: var(--bg-alt);
+      border-left: 4px solid var(--accent);
+      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+      padding: 24px 28px;
+      margin: 28px 0;
+    }
+    .study-page .highlight-box p { margin-bottom: 0; }
+
+    .reasons-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 24px 0;
+    }
+    .reason-card {
+      background: var(--bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 20px 22px;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+      transition: all 0.3s;
+    }
+    .reason-card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+    }
+    .reason-card .icon {
+      width: 40px;
+      height: 40px;
+      min-width: 40px;
+      background: rgba(245,176,65,0.12);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      color: var(--accent-dark);
+    }
+    .reason-card p {
+      font-size: 13px;
+      margin-bottom: 0;
+    }
+
+    .living-section {
+      background: var(--bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius);
+      padding: 32px;
+      margin: 28px 0;
+    }
+    .living-section p:last-child { margin-bottom: 0; }
+
+    .budget-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .budget-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--text-color);
+      padding: 10px 14px;
+      background: var(--bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+    }
+    .budget-list li i { color: var(--accent); font-size: 14px; }
+
+    .info-list {
+      list-style: none;
+      padding: 0;
+      margin: 20px 0;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .info-list li {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      color: var(--text-color);
+      padding: 10px 14px;
+      background: var(--bg-alt);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+    }
+    .info-list li i { color: var(--accent); font-size: 14px; }
+
+    @media (max-width: 768px) {
+      .reasons-grid { grid-template-columns: 1fr; }
+      .info-list { grid-template-columns: 1fr; }
+      .budget-list { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <span><i class="fas fa-map-marker-alt"></i> #1, Near Govt Boys School, Behind Old Bus Stand, Karnal</span>
+      <span style="display: flex; align-items: center; gap: 16px;">
+        <a href="tel:8810110144"><i class="fas fa-phone-alt"></i> Call Now! 88101-10144</a>
+        <button class="theme-toggle top-bar-theme" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+      </span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Sombir's Visa Consultancy" style="height: 42px; width: auto;">
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="index.html#classes" class="dropdown-toggle">Classes <i class="fas fa-chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="ielts.html">IELTS</a></li>
+            <li><a href="pte.html">PTE</a></li>
+            <li><a href="spoken-english.html">Spoken English</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="index.html#study-abroad" class="dropdown-toggle">Study Abroad <i class="fas fa-chevron-down"></i></a>
+          <ul class="dropdown-menu">
+            <li><a href="canada-study-visa.html">Canada</a></li>
+            <li><a href="uk-study-visa.html">UK</a></li>
+            <li><a href="australia-study-visa.html">Australia</a></li>
+            <li><a href="usa-study-visa.html">USA</a></li>
+            <li><a href="singapore-study-visa.html">Singapore</a></li>
+            <li><a href="malta-study-visa.html">Malta</a></li>
+            <li><a href="cyprus-study-visa.html">Cyprus</a></li>
+            <li><a href="new-zealand-study-visa.html">New Zealand</a></li>
+          </ul>
+        </li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+        <li><a href="contact-us.html" class="cta-btn"><i class="fas fa-phone-alt"></i> Book a Call</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero" style="background: linear-gradient(135deg, #0a1a2e 0%, #1a3a6b 40%, #c8102e 100%);">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / <a href="index.html#study-abroad">Study Abroad</a> / UK</p>
+      <h1><span class="fi fi-gb" style="margin-right: 12px; vertical-align: middle;"></span> UK Study Visa</h1>
+      <p>World-renowned universities, shorter degree programs, and post-study work opportunities up to 3 years.</p>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <section class="study-page">
+    <div class="container">
+
+      <!-- Overview -->
+      <div class="reveal">
+        <p>For students who are interested in applying for UK study Visa in Karnal, Sombir's Visa Consultancy is one of the best picks in Karnal city. Sombir's Visa Consultancy has high success rates for UK visa and other visas as well.</p>
+
+        <p>Many students go to countries like Canada, Australia, etc. But the UK is also one of the best options for those who want to study abroad. Unlike before, the UK now allows work permits for those students who complete their graduation from UK colleges and institutions. The work permit can go up to 3 years after completing the studies in the UK.</p>
+      </div>
+
+      <!-- Why Study in UK -->
+      <div class="reveal">
+        <h2>Why Study in the UK?</h2>
+
+        <div class="reasons-grid">
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-globe"></i></div>
+            <p>UK qualifications are recognized all over the world. Graduates return home to successful careers globally.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-briefcase"></i></div>
+            <p>Graduates from the UK are preferred by major corporations of the world.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-user-tie"></i></div>
+            <p>International students have become important world influencers — Imran Khan, Mahatma Gandhi, Dr. Manmohan Singh, Bill Clinton, and more.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-plane"></i></div>
+            <p>Ideal location to explore Europe. Best-in-class roads, air, and rail links allow economic and hassle-free travel.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-clock"></i></div>
+            <p>Shorter duration programs — most undergraduate honors take 3 years, Master's takes 1-2 years, saving on tuition & accommodation.</p>
+          </div>
+          <div class="reason-card">
+            <div class="icon"><i class="fas fa-id-card"></i></div>
+            <p>Student identity cards offer numerous discounts on transport and sightseeing across Europe.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Facts -->
+      <div class="reveal">
+        <h2>UK at a Glance</h2>
+        <ul class="info-list">
+          <li><i class="fas fa-map-pin"></i> Capital: London</li>
+          <li><i class="fas fa-money-bill-wave"></i> Currency: Pound Sterling (&pound;)</li>
+          <li><i class="fas fa-language"></i> Language: English</li>
+          <li><i class="fas fa-users"></i> Population: ~67 Million</li>
+          <li><i class="fas fa-university"></i> Top Universities: Oxford, Cambridge, Imperial, UCL, LSE</li>
+          <li><i class="fas fa-graduation-cap"></i> Bachelor's: 3 years | Master's: 1-2 years</li>
+          <li><i class="fas fa-id-card"></i> Post-study Work: Up to 3 years</li>
+          <li><i class="fas fa-clock"></i> Visa Type: Tier 4 (Student) Visa</li>
+        </ul>
+      </div>
+
+      <!-- Living -->
+      <div class="reveal">
+        <h2>Living in the UK</h2>
+        <div class="living-section">
+          <p>Even though the expense of transport, sightseeing, etc. cost comparatively less, there are some initial costs which will need careful planning, especially if you plan to stay in the UK longer (i.e. students, workers, etc.). Here are the essential things you should budget for:</p>
+
+          <h3 style="font-size: 17px; margin-top: 20px;">Budget Essentials</h3>
+          <ul class="budget-list">
+            <li><i class="fas fa-home"></i> <strong>Accommodation:</strong> Major expense in London. Hostels from &pound;11/night</li>
+            <li><i class="fas fa-bus"></i> <strong>Transport:</strong> Oyster card recommended for commuting convenience</li>
+            <li><i class="fas fa-tshirt"></i> <strong>Clothing:</strong> Pack for all seasons; formal wear for interviews</li>
+            <li><i class="fas fa-file-contract"></i> <strong>Bond & Rent:</strong> Up to 6 weeks rent as bond; &pound;800-1000/month typical</li>
+            <li><i class="fas fa-utensils"></i> <strong>Eating & Drinking:</strong> Home cooking is much more economical than eating out</li>
+            <li><i class="fas fa-train"></i> <strong>Travel:</strong> Student discounts available on rail and sightseeing</li>
+          </ul>
+
+          <p>London is not cheap in terms of Breakfast, Lunch, or Dinner. It is recommended to buy groceries and make your meals at home which will surely be much more economical. Save these bucks on important things like traveling or doing your hobbies.</p>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="highlight-box reveal" style="border-left-color: #c8102e; margin-top: 48px;">
+        <p><strong>Ready to study in the UK?</strong> Contact Sombir's Visa Consultancy today for expert guidance on university selection, application process, visa documentation, and interview preparation. <a href="contact-us.html" style="color: var(--accent); font-weight: 700;">Get started now →</a></p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div>
+        <div class="footer-logo"><img src="images/logo.png" alt="Sombir's Visa Consultancy" style="height: 36px; width: auto;"></div>
+        <p style="max-width: 320px;">15+ years of excellence in IELTS, PTE, Spoken English coaching and study abroad visa consultancy in Karnal. We help students achieve their global dreams.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="ielts.html">IELTS</a></li>
+          <li><a href="canada-study-visa.html">Study Abroad</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Important Links</h4>
+        <ul>
+          <li><a href="https://portal2.passportindia.gov.in/" target="_blank">Passport Appointment</a></li>
+          <li><a href="https://ieltsidpindia.com/" target="_blank">IELTS Exam Booking</a></li>
+          <li><a href="https://pearsonpte.com/" target="_blank">PTE Exam Booking</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="ielts.html">IELTS Coaching</a></li>
+          <li><a href="pte.html">PTE Coaching</a></li>
+          <li><a href="spoken-english.html">Spoken English</a></li>
+          <li><a href="canada-study-visa.html">Study Abroad</a></li>
+          <li><a href="canada-study-visa.html">Visa Consultancy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      Copyright &copy; 2026 <a href="index.html">Sombir's</a> | Designed with <i class="fas fa-heart" style="color: var(--accent);"></i> by Sombir's Visa Consultancy
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="theme.js"></script>
+  <script src="script.js"></script>
+  <script>
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      if (link.getAttribute('href') === 'uk-study-visa.html') link.classList.add('active');
+    });
+  </script>
+</body>
+</html>
